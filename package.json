@@ -4,9 +4,9 @@
     "Eric Caron <eric@trackif.com>",
     "Adam Gray <adam@trackif.com>"
   ],
-  "name": "gdc",
+  "name": "nodegdc",
   "description": "A NodeJS module to access GoodData REST API.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/TrackIF/nodegdc",
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
   "dependencies": {
     "request":  "2.33.0",
     "ftp":      "0.3.6",
-    "node-zip": "1.0.1",
     "lodash":   "2.4.1",
-    "q":        "1.0.0"
+    "q":        "1.0.0",
+    "adm-zip":  "0.4.3"
   },
   "optionalDependencies": {}
 }
