@@ -5,28 +5,6 @@ This nodejs module to access GoodData REST API.
 Based on logic in https://github.com/byrot/phpgdc
 
 
-## Installation
-
-The following recommended installation requires [npm](https://npmjs.org/). If you are unfamiliar with npm, see the [npm docs](https://npmjs.org/doc/). Npm comes installed with Node.js since node version 0.8.x therefore you likely already have it.
-
-Add the following to your `package.json` file:
-
-```json
-{
-  ...
-  "dependencies": {
-    ...
-    "gdc": "0.0.1"
-  }
-}
-```
-
-Install nodcgec and its dependencies:
-
-```bash
-npm install
-```
-
 ## Sample Code
 ```javascript
 var gdc = require('../nodegdc')('name@example.com', 'gooddatapassword', 'project-code', true)
